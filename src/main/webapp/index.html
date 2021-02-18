@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>ULTIMATE TODO LIST</title>
+    <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="styles.css"
+    />
+</head>
+<body>
+<div id="root" class="todo-app__root">
+    <header class="todo-app__header">
+        <h1 id="title" class="todo-app__title">Introduce yourself</h1>
+    </header>
+    <div id="form" class="todo-app__main">
+        <input
+            id="todoInput"
+            class="todo-app__input"
+            placeholder="please enter your name"
+            name="name"
+        />
+        <ul
+            id="todo-list"
+            class='todo-app__list'
+            style="display: none"
+        >
+        </ul>
+        <div id="lang-form" class="todo-app__footer">
+            <fieldset id="langs" class="todo-app__langs">
+                Loading...
+            </fieldset>
+            <button id="submit-btn" class="todo-app__submit">
+                Submit
+            </button>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
